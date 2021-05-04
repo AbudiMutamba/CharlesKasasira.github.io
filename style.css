@@ -291,10 +291,11 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/img-1.png);
+  background-image: url(./img/headshot5\(t\).png);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
+  height: 250px;
   z-index: 1;
   overflow: hidden;
 }
@@ -551,17 +552,20 @@ p {
     left: 100%;
   }
 }
+
 @keyframes text_reveal {
   100% {
     color: white;
   }
 }
+
 @keyframes text_reveal_name {
   100% {
     color: crimson;
     font-weight: 500;
   }
 }
+
 /* End Keyframes */
 
 /* Media Query For Tablet */
