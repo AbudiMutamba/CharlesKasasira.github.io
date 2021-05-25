@@ -399,6 +399,12 @@ p {
 #projects .project-info p {
   color: white;
 }
+
+p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 #projects .project-img {
   flex-basis: 50%;
   height: 300px;
@@ -534,19 +540,21 @@ p {
 }
 #footer .social-icon {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 #footer .social-item {
   height: 50px;
   width: 50px;
   margin: 0 5px;
 }
-#footer .social-item img {
+#footer .social-item i {
+  font-size: 4em;
   filter: grayscale(1);
   transition: 0.3s ease filter;
 }
-#footer .social-item:hover img {
+#footer .social-item:hover i {
   filter: grayscale(0);
+  color: #dd3d3c;
 }
 #footer p {
   color: white;
