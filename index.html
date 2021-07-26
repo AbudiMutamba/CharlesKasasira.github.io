@@ -1,196 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#000">
-  <link rel="shortcut icon" href="./img/icon.png" type="image/png" />
-  <script src="https://kit.fontawesome.com/b994473ee0.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
-  <title>KASASIRA</title>
-</head>
-<body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero"><h1><span>Kasa</span>sira</h1></a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a href="blog.html" data-after="Contact">Blog</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000" />
+    <link rel="shortcut icon" href="./media/img/icon.png" type="image/x-icon" />
+    <title>Kasasira</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <header>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#home"><img src="./media/img/logo2.png" alt="Kasasira"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample03"
+          aria-controls="navbarsExample03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">HIRE ME</a>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Header -->
+    </nav>
+    <!-- end navigation bar -->
 
+  </header>
 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Charles Kasasira, <span></span></h1>
-        <h2 id="ui">UI/UX Designer <span></span></h2>
-        <h2 id="front">Front-end Engineer <span></span></h2>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
+    <!-- Hero section  -->
+    <section id="hero">
+      <div class="hero">
+        <h1>
+          Charles Kasasira
+          <span id="holder">Lorem ipsum dolor sit amet.</span>
+        </h1>
+        <h3>UI/UX Designer</h3>
+        <p>Hello, I am an aspiring UI/UX designer with the ability to translate the designs into Front-end</p>
+        <a href="#portfolio" class="cta btn" id="myPortolio">My Portfolio</a>
       </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
+    </section>
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <!--<div class="icon"><img src="./img/headshot5(t).png"/></div>-->
-          <h2>Graphics Design</h2>
-          <p>With experience in adobe photoshop and ilustrator, i can design logos and posters for your logos </p>
-        </div>
-        <div class="service-item">
-          <!--<div class="icon"><img src="./img/headshot5(t).png"/></div>-->
-          <h2>Web Development</h2>
-          <p>HTML5, CSS5, JS, wordpress</p>
-          <p>i am working my way to a Front-end developer</p>
-        </div>
-        <div class="service-item">
-          <!--<div class="icon"><img src="./img/headshot5(t).png"/></div>-->
-          <h2>UI/UX design</h2>
-          <p>Enquired with skills in both Figma and AdobeXD</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
+    <!-- end hero section -->
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Byte Of Hope</h1>
-            <p>I was one of the founding members of Byte Of Hope and currently am the chairman. </p>
-          </div>
-          <div class="project-img">
-            <img src="./img/BOH logo.png" alt="Byte of hope logo">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Goph Technologies</h1>
-            <p>In 2020, i Offered my services as a grahics designer to Goph Technologies(currently WHD Technologies) .</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>My Portfolio</h1>
-            <p>Still working on my other projects. But willing to work on your projects, so if you have any. <br />
-              <a href="https://www.figma.com/file/7v8WMY8JYHaRSxovdg58JO/My-Profile?node-id=0%3A1">Link to wireframe</a>
+    
+  <!-- portfolio Section -->
+  <section id="portfolio">
+    <div class="portfolio container">
+      <h1>Portfolio</h1>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="./media/img/byte-of-hope.png" alt="Byte of hope logo"/>
+            <h2>Byte Of Hope</h2>
+            <p>
+              I work as a freelance graphics designer and post most of my
+             work <a href="https://www.instagram.com/byte_of_hope/" target="_blank">@byte_of_hope</a>'s instagram page.
             </p>
-          </div>
-         <div class="project-img">
-            <img src="./img/wireframe1.png" alt="wireframe1 photo">
-          </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
+        </div>
+        <div class="portfolio-item">
+          <img src="./media/img/whd.png" alt="whd Technologies logo" />
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./img/kasasira.jpg" alt="Kasasira photo">
+            <h2>WHD Technologies</h2>
+            <p>
+              I had the opportunity to work with <a href="https://whd.biz" target="_blank">WHD Technologies</a> as a
+              graphics designer, doing logo design and social-media designs.
+            </p>
+        </div>
+        <div class="portfolio-item"><img src="./media/img/portfolio1.png" alt="Byte of hope logo" />
+            <h2>My Portfolio</h2>
+            <p>
+              I designed the UI of this portfolio website in figma
+              <a
+                href="https://www.figma.com/file/7v8WMY8JYHaRSxovdg58JO/My-Profile?node-id=0%3A1"
+                target="_blank">link to wireframes </a>.
+            </p>
         </div>
       </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <div class = "col-sm-8 col-md-8">
-          <p>Male, 21 years old.</p>
-          <p>Five feet 4 inches</p>
-          <p>Interested in Web Development languages (there's a lot of them...).</p>
-          <br />
-          <p>All-Time: Student of the world</p>
-          <p>January 2019 - Present: Freelance Graphics Designer and Web Developer</p>
-          <p>August 2019: Student Makerera University</p>
-          <br />
-        </div>
-        <a href="./media/documents/Kasasira's Profile.docx" class="cta" download>Download Resume</a>
-      </div>
+      <a href="#footer" class="cta btn" id="hire">Hire Me</a>
     </div>
   </section>
-  <!-- End About Section -->
+  <!-- End portfolio Section -->
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div><h1 class="section-title">Contact <span>info</span></h1></div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="./img/phone.png"/></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+256 750 118 523</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/head.png" alt="kasasira photo"/></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>charleskasasira01@gmail.com</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/location.png"/></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Namuwongo 8th street</h2>
-            <h2>Kampala, Uganda</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+    <!-- Testmonial section  -->
+      <section id="testmonial">
+        <h1>Testmonials</h1>
+        <main class="testmonial">
+            <article>
+              <span>"</span>
+              <p class="ptest">
+                I had the joy of working with Charles on some of my projects and I will work with him when the opportunity comes again
+              </p>
+              <figure>
+                <img src="./media/img/jonah.png" alt="Jonathan Rukundo" />
+              </figure>
+              <h3>Jonathan Rukundo</h3>
+              <h6 class="color">Front-end developer</h6>
+            </article>
+            <article>
+              <span>"</span>
+              <p class="ptest">
+                 I had alot of fun when i worked with Charles, he is humble and brilliant when you get to know
+                </p>
+                <figure>
+                  <img src="./media/img/mohammad.png" alt="Mohammad Hazari" />
+                </figure>
+                <h3>Mohammad Hazari</h3>
+                <h6 class="color">WHD Technologies</h6>
+            </article>
+            <article>
+              <span>"</span>
+              <p class="ptest">
+                Pending...
+              </p>
+              <figure>
+                <img src="./media/img/david.png" alt="David Wampamba" />
+              </figure>
+              <h3>David Wampamba</h3>
+              <h6 class="color">Software Development coach</h6>
+            </article>
+        </main>
+      </section>
+    <!-- end testmonial section  -->
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="https://www.github.com/CharlesKasasira"><i class="fab fa-github"></i></a>
+    <!-- blog section  -->
+    <section id="blog">
+      <h1>Blog</h1>
+      <main class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure class="blog-thumbnail">
+              <img src="./media/img/me6.png" alt="web photo" />
+            </figure>
+            <h3>Best time to code!</h3>
+            <p>
+              Ever wonder what's the best time to code, Great, i coded at all the times of the day(morning, evening and night) and the answer will SHOCK you
+            </p>
+          </article>
         </div>
-        <div class="social-item">
-          <a href="https://www.twitter.com/KasasiraC"><i class="fab fa-twitter"></i></a>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure class="blog-thumbnail">
+              <img src="./media/img/web.png" alt=" web photo" />
+            </figure>
+            <h3>Web Development</h3>
+            <p>
+              The complete roadmap to a web developer, from Html to javascript to server-side programming for the fullstack developers.
+            </p>
+          </article>
         </div>
-        <div class="social-item">
-          <a href="https://instagram.com/kasasira_charles?igshid=c48vrtl5has1"><i class="fab fa-instagram"></i></a>
+      </main>
+
+
+
+      <main class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            
+          </article>
         </div>
-      </div>
-      <p>Copyright © 2021 Kasasira.</p>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article></article>
+          <p style="text-align: right;"><a href="./about/about.html">Read more &raquo;</a></p>
+          </article>
+        </div>
+        
+      </main>
+      
+    </section>
+    <!-- end blog section  -->
+
+    <!-- footer section  -->
+    <footer id="footer">
+      <h3>Hire me</h3>
+      <h5>Phone: +256750118523</h5>
+      <div id="social">
+
+        <a href="https://twitter.com/kasasirac" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/charles-kasasira/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/charleskasasira" target="_blank"><i class="fa fa-github"></i></a>
+
     </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./js/script.js"></script>
-</body>
+      <h5>&copy; kasasira 2021</h5>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
